@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Me</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="favicon.ico">
+    </head>
+
+    <body>
+        <h1 id="title">Contact Me</h1>
+
+        <hr>
+
+        <p>yashmahe2018@gmail.com</p>
+
+        <hr>
+        
+        <form action="mailto:info@yashmahe2018@gmail.com" method="post" enctype="text/plain">
+
+            <table cellspacing="10">
+                <tr>
+                    <td><label>Your Name:</label></td>
+                    <td><input type="text" name="yourName"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Your Email:</label></td>
+                    <td><input type="email" name="yourEmail"></td>
+                </tr>
+
+                <tr>
+                    <td><label>When were you born?</label></td>
+                    <td><input type="date" name="yourBirthDate"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Are you over the age of 18?</label></td>
+                    <td><input type="checkbox" name="yourOverEighteen"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Your Favorite Color:</label></td>
+                    <td><input type="color" name="yourFavoriteColor"></td>
+                </tr>
+
+                <tr>
+                    <td><label>An image of you:</label></td>
+                    <td><input type="file" name="yourImage"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Your Message</label></td>
+                    <td><textarea name="yourMessage" rows="10" cols="30"></textarea></td>
+                </tr>
+
+            </table>
+
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+
+</html>

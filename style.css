@@ -1,0 +1,19 @@
+body{
+background-color: #e3fdfd;
+}
+
+hr{
+    background-color: #cbf1f5;
+    border-style: none;
+    height: 2px;
+}
+
+/* Using classes*/
+.heading{
+    color: #e5707e;
+}
+
+/* Using ID's*/
+#title{
+    color: #11c9ce;
+}
